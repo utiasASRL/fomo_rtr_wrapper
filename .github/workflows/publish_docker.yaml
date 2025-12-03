@@ -2,6 +2,8 @@ name: Update dockerfile
 
 on:
   push:
+    paths:
+      - 'Dockerfile' # Only push if the Dockerfile changes
 
 jobs:
   docker:
