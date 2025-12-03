@@ -13,7 +13,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     # config directory
-    config_dir = osp.join(get_package_share_directory("rtr_fomo_wrapper"), 'config')
+    config_dir = osp.join(get_package_share_directory("fomo_rtr_wrapper"), 'config')
 
     commonNodeArgs = {
         "package": 'vtr_navigation',
